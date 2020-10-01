@@ -5,6 +5,7 @@ Node* create_node(int data , Node* link)
     Node* node = (Node*)malloc(sizeof(Node));
     node->data = data;
     node->link = link;
+    printf("Hello World");
 
     return node;
 }
