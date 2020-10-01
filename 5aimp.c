@@ -67,6 +67,7 @@ void list_destroy(List* ptr_list)
 	//TODO - free the allocated space
     Node *p = ptr_list->head;
 	Node *q = NULL;
+	printf("Hello");
 
     while (p != NULL)
     {
