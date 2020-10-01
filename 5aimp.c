@@ -83,6 +83,7 @@ void Stack_initialize(Stack *ptr_Stack)
 	//TODO - get the memory allocation for stack, and intern call list initialize
 	ptr_Stack->ptr_list = (List*)malloc(sizeof(List));
 	list_initialize( ptr_Stack->ptr_list ) ;
+	printf("Hello world");
 }
 
 void Stack_push(Stack *ptr_Stack, int key) 
